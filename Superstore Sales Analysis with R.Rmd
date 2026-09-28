@@ -1,0 +1,65 @@
+---
+title: "Time Seriesstr Analysis"
+author: "Jean Tini"
+date: "2026-09-28"
+output: html_document
+---
+```{r}
+
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r}
+str(Superstore)
+```
+## 1.Data File in CSV format
+
+## 2. Detailed Description of the Data
+The dataset consits of retail sales transactions of 21 columns.
+Row ID (integer)
+Order ID (string)
+Order Date (Date)
+Ship Date (Date)
+Ship (Categorical)
+Customer ID (string)
+Customer Name (string)
+Segment (Categorical)
+Country (Categorical)
+City (Categorical)
+State (Categorical)
+Postal Code (Numeric)
+Region (Categorical)
+Product ID (string)
+category (Categorical)
+Sub-Category (Categorical)
+Product Name (string)
+Sales (Continuous Numeric)
+Quantity (integer)
+
+## 3.Data Methodology Collection
+The data set is merged retail sales from four US regions: WEST, CENTRAL, SOUTH, and EAST. Synthetically, it stored in Kaggle platform over time.
+
+## 4. Why does this data set intrigue you?
+I want to understand this retail sales and profit trends, and how discount strategy will be beneficial from business perspective, using R language.
